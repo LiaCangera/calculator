@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.triangle{
+    padding: 10px;
+    width: 100%;
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.parallelogram{
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    color: #1E90FF;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.card{
+    border: 1px solid;
+    border-color: #1E90FF;
+    margin-top: 20px;
+}
+
+.card-header{
+    padding: 50px;
+    background-color: #1E90FF;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.inform{
+    margin-top: 10px;
+}
+
+p{
+    text-align: left;
+}
+
+.formula{
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-calculate{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-calculate h5{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 10px;
+    border: 1px gray solid;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+[type="submit"]{
+    padding: 10px;
+    width: 100px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[type="reset"]{
+    padding: 10px;
+    width: 80px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-bottom: 30px;
+
+}
