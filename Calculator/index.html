@@ -21,6 +21,7 @@
     </header>
     <main>
         <section id="triangle">
+            <!-- Luas Segitiga -->
             <div class="card">
                 <div class="card-header">
                     <h5>Luas Segitiga</h5>
@@ -37,12 +38,16 @@
                 <hr>
                 <div class="card-calculate">
                     <h5>Hitung Luas Segitiga</h5>
-                    <input type="number" name="" id="" placeholder="Nilai Alas">
-                    <input type="number" name="" id="" placeholder="Nilai Tinggi">
-                    <button type="submit">Hitung</button>
+                    <input type="number" name="" id="pad" placeholder="Nilai Alas">
+                    <input type="number" name="" id="height" placeholder="Nilai Tinggi">
+                    <div id="formula-triangle-wide"></div>
+                    <div id="number-triangle-wide"></div>
+                    <div id="result-triangle-wide"></div>
+                    <button type="submit" id="triangle-wide" onclick="wide()">Hitung</button>
                     <button type="reset">Reset</button>
                 </div>
             </div>
+            <!-- Keliling Segitiga -->
             <div class="card">
                 <div class="card-header">
                     <h5>Keliling Segitiga</h5>
@@ -69,5 +74,6 @@
             </div>
         </section>
     </main>
+    <script src="JS/index.js"></script>
 </body>
 </html>
